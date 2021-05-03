@@ -1,0 +1,66 @@
+body{
+	margin: 0 auto;
+	padding-left: 30%;
+	padding-right: 30%;
+	background: url("../media/spikes.png");
+}
+
+.container{
+
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80, 0.7);
+	border-radius: 20px;
+	margin-top: 30%;
+	margin-bottom: 30%;
+	padding: 5%;
+}
+
+.container img{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+
+input[type="text"],input[type="password"], input[type="email"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before{
+	padding-left: 07px;
+	padding-top: 40px;
+	position: absolute;
+	font-size: 35px;
+	color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+}
+
+.btn-login{
+	padding: 2%;
+	border-width: 2px;
+	border-color: transparent;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: #27ae60;
+	text-decoration: none;
+	color: #fff;
+	margin: 2%;
+}
+
+.btn-login:hover {
+	border-color: rgba(211, 226, 243, 1);
+	border-style: solid;
+	cursor: pointer;
+	background-color: #2FBF65;
+	transition-duration: 0.5s;
+}

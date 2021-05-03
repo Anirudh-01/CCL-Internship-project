@@ -1,0 +1,216 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+#top-nav{
+
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	padding-top: 0.8% !important;
+	padding-bottom: 0.8% !important;
+	padding-left: 3% !important;
+	padding-right: 3% !important;
+
+	position: relative;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(10px);
+}
+
+#landing-area{
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	padding: 10%;
+
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(211, 226, 243, 1)), url("../media/spikes.png");
+
+}
+
+#products {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	padding: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+	background: url("../media/spikes.png");
+}
+
+#Single_product {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	padding: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+	background: url("../media/spikes.png");
+}
+
+#Single_product1 {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	padding-left: 15%;
+	padding-right: 15%;
+	background: url("../media/spikes.png");
+}
+
+#Single_product2 {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	padding: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: url("../media/spikes.png");
+}
+
+#services{
+    position: relative;
+	width: 100%;
+	padding: 5%;
+	background: linear-gradient(0deg, rgba(33, 161, 255, 0.1), rgba(33, 161, 255, 0.1)), url("../media/spikes.png");
+
+}
+
+#more-info{
+
+	position: relative;
+	width: 100%;
+	padding: 5%;
+	background: url("../media/spikes.png");
+}
+
+.product_row > *{
+	padding: 4%;
+
+}
+.card_block{
+	padding: 5%;
+	transition: transform 0.5s;
+}
+.card_block:hover{
+	transform: translateY(-1%);
+}
+
+.btn {
+
+	border-radius: 10px;
+	padding:1%;
+	margin: 1%;
+}
+.ccl-logo{
+
+	padding: 2%;
+}
+.service1{
+
+	padding-bottom: 5%
+}
+.service2{
+
+	padding-bottom: 3%
+}
+
+.info-content{
+	padding: 10%;
+}
+.quote-logo{
+
+	padding-left: 3%;
+}
+.quote-text{
+
+	padding-left: 3%;
+}
+.arrows{
+
+	padding: 2rem;
+}
+.nav-item{
+	font-size: 20px;
+	padding: 10px;
+}
+.navbar-brand{
+	padding-left: 20px
+}
+.shopping_cart{
+	padding-left: 10px;
+	transition: transform 0.5;
+}
+.shopping_cart:hover{
+	transform: translateY(-2px);
+}
+.product-02{
+ 	transform: translateY(-40%);
+}
+.product-02:hover{
+	transform: translateY(-41%);
+}
+.product-03{
+ 	/*transform: translateY(-80%);*/
+}
+.product-03:hover{
+	transform: translateY(-1%);
+}
+.product-04{
+ 	transform: translateY(-40%);
+}
+.product-04:hover{
+	transform: translateY(-41%);
+}
+.product-05{
+ 	/*transform: translateY(-160%);*/
+}
+.product-05:hover{
+	transform: translateY(-1%);
+}
+.product-06{
+ 	transform: translateY(-40%);
+}
+.product-06:hover{
+	transform: translateY(-41%);
+}
+
+.latest_products{
+	padding-bottom: 8%;
+}
+svg{
+	filter: drop-shadow(0px 0px 4px #444);
+}
+
+h1{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+	margin-top: auto !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	width: 100%;
+	background: rgba(33, 161, 255, 0.1);
+}
